@@ -1,0 +1,519 @@
+html{scroll-behavior: smooth;}
+body
+{
+	margin: 0;
+	background-color: #1a1a1a;
+}
+.land img
+{
+	width: 100%;
+}
+.topnav
+{
+	width: 100%;
+	height: 7vw;
+	position: absolute;
+	overflow: hidden;
+
+}
+.topnav .a1 img
+{
+	position: absolute;
+  display: block;
+  width: 12%;
+  margin-left: 4vw;
+  margin-top: 1.5vw;
+   
+}
+
+.topnav .a2 
+{
+
+  float: right;
+  display: inline-block;
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: normal;
+  margin-right: 2vw;
+  margin-top: 2vw;
+ 
+  font-family: arial;
+  transition: 0.4s;
+  
+}
+.topnav a
+{
+	
+  text-decoration: none;
+  color: white;
+}
+
+.topnav .a2:hover 
+{
+  padding-right: 1.5vw;
+  padding-left: 1.5vw;
+ background-color: #99cc33;
+  
+}
+
+.topnav .icon {
+  display: none;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .landimg
+  {
+  	display: none;
+  }
+
+ }
+ .landpimg
+ {
+ 	display: none;
+ }
+
+.landimg
+{width: 100%;}
+.land p
+{
+	position: absolute;
+	font-size: 2vw;
+	margin-top: -30vw;
+	color: white;
+	font-family: ARIAL;
+	margin-left: 15vw;
+	font-weight: bolder;
+}
+.land .tra
+{
+	position: absolute;
+color: white;
+font-family: arial;
+font-weight: normal;
+font-size: 1vw;
+letter-spacing: 0.1vw;
+line-height: 2vw;
+margin-top: -22vw;
+}
+.land .landa
+{
+	position: absolute;
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 1.5vw;
+	font-family: sans-serif;
+	margin-left: -84vw;
+	margin-top: 34vw;
+	padding: 0.5vw;
+	background-color: #99cc33;
+	transition: 0.5s;
+	
+}
+.land .landa:hover
+{
+	padding-left: 6vw;
+	
+
+}
+
+.explore
+{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #666666;
+	margin-top: 5vw;
+}
+.fn
+{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: normal;
+	color: #3399cc;
+	margin-top: 5vw;
+}
+
+.box1
+{
+	margin-top: 7vw;
+	background-color: inherit;
+	width: 30%;
+	margin-left: 2.5vw;
+	display: inline-block;
+	height: 11vw;
+	overflow: hidden;
+	border-radius: 10px;
+	
+}
+.box1 h3
+{
+	color: #99cc33;
+	font-size: 1.5vw;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-left: 2vw;
+}
+.box1 p
+{
+	color: white;
+	text-align: justify;
+	font-family: sans-serif;
+	font-weight: normal;
+	margin-left: 2vw;
+	font-size: 1.3vw;
+}
+
+
+
+
+
+
+.container .b1
+{
+	overflow: hidden;
+	width: 49.5%;
+	height: auto;
+	text-align: left;
+	background-color: inherit;
+	display: inline-block;
+}
+
+.container h1
+{
+	font-family: sans-serif;
+	color: #99cc33;
+	font-size: 2vw;
+	font-weight: normal;
+	margin-left: 5vw;
+}
+.b1 .p1
+{
+	font-family: sans-serif;
+	font-size: 1.5vw;
+	color: white;
+	margin-top: 1vw;
+	margin-left: 9vw;
+	display: block;
+	width: 49%;
+}
+.b1 p
+{
+	font-family: sans-serif;
+	font-size: 1.5vw;
+	color: white;
+	
+	margin-left: 9vw;
+	width: 45%;
+	
+	display: block;
+	transition: 0.6s;
+	
+	
+}
+.b1 .hid
+{
+	font-family: sans-serif;
+	font-size: 1vw;
+	margin-left: 17vw;
+	color: white;
+	font-weight: normal;
+	display: none;
+	width: 45%;
+}
+.b1 p:hover
+{
+
+	padding-left:6vw ;
+	border-bottom: 2px solid #99cc33;
+}
+.b1 p:hover+.hid
+{
+	
+	display: block;
+}
+
+.b1 a
+{
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 1.5vw;
+	background-color: #99cc33;
+	margin-top: -4vw;
+	margin-left: 39vw;
+	padding: 0.6vw;
+	transition: 0.5s;
+}
+.b1 a:hover
+{
+	padding-left: 5vw;
+}
+
+
+
+
+
+
+.con
+{
+	width: 100%;
+	height: 16vw;
+	margin-top: 9vw;
+	background-color: #333333;
+}
+.con h1
+{
+	position: absolute;
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 4vw;
+	margin-top: 4vw;
+	margin-left: 5vw;
+}
+.con p
+{
+	position: absolute;
+	color: white;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size:1.5vw ;
+	margin-top:9vw ;
+	margin-left: 5vw;
+}
+.con a
+{
+	position: absolute;
+	padding: 0.6vw;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 1.5vw;
+	text-decoration: none;
+	color: white;
+	background-color: #99cc33;
+	margin-left: 75vw;
+	margin-top: 7vw;
+	
+	transition: 0.5s;
+}
+.con a:hover
+{
+	padding-left: 7vw;
+	background-color: #99cc33;
+}
+.foo
+{
+	width: 100%;
+	height: 15vw;
+	margin-top: 10vw;
+}
+
+.foo .f1
+{
+	width: 30%;
+	height: 20vw;
+	display: inline-block;
+	background-color: inherit;
+	margin-left: 2.5vw;
+	margin-top: 2.5vw;
+	overflow: hidden;
+}
+.foo .f1 img
+{
+	width: 50%;
+
+}
+.foo .f1 h2
+{
+	color: #99cc33;
+	font-family: sans-serif;
+	font-size: 1.5vw;
+}
+.foo .f1 a
+{
+	display: block;
+	text-decoration: none;
+	font-size: 1.3vw;
+	font-weight: normal;
+	font-family: sans-serif;
+	margin-top: 1vw;
+	color: white;
+	transition: 0.3s;
+}
+.foo .f1 a:hover
+{
+	color: #99cc33;
+}
+.foo .f1 p
+{
+	font-family: sans-serif;
+	font-size: 1.3vw;
+	font-weight: normal;
+	color: white;
+}
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 800px) {
+  .topnav.responsive 
+  {
+  	position: absolute;
+  	background-color: #333333;
+  	width: 100%;
+  	height: 45vw;
+  	transition: 0.5s;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0
+  }
+  .topnav
+  {
+
+  	width: 100%;
+  	background-color: inherit;
+  	z-index: 1;
+  	height: auto;
+
+  }
+  .topnav.responsive .a2 {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-top: 6vw;
+    margin-left: 35vw;
+    padding: 1vw;
+    width: 30%;
+  }
+  .topnav.responsive .a2:hover
+  {
+  	padding-left: 9vw;
+
+  }
+  .topnav .a1 img
+  {
+  	width: 29%;
+  }
+  .landpimg
+  {
+  	display: block;
+  }
+  .land p
+  {
+  	margin-top: -120vw;
+  	font-size: 5vw;
+  }
+  .land .tra
+  {
+  	margin-top: -100vw;
+  	font-size: 2.8vw;
+  	line-height: 4vw;
+  }
+  .land .landa
+  {
+  	font-size: 4vw;
+  	margin-top: -85vw;
+  	margin-left: 15vw;
+  }
+  .box1
+  {
+  	display: block;
+  	text-align: center;
+  	margin-left: 2.8vw;
+  	height: auto;
+  	width: 90%;
+  }
+  .box1 h3
+  {
+  	font-size: 4.5vw;
+  }
+  .box1 p
+  {
+  	font-size: 3.5vw;
+  }
+  .container h1
+  {
+  	font-size: 4.5vw;
+  }
+  .container .b1
+  {
+  	display: block;
+  	width: 100%;
+  	
+  }
+  .b1 p
+  {
+  	font-size: 3.5vw;
+  }
+  .b1 .hid
+  {
+  	font-size: 2.5vw;
+  }
+  .b1 .p1
+  {
+  	font-size: 3.5vw;
+  }
+  .b1 a
+  {
+  	margin-left: 80vw;
+  	font-size: 3.5vw;
+  	margin-top: -8vw;
+  }
+  .con
+  {
+  	width: 100%;
+  	height: 40vw;
+  	text-align: center;
+  }
+  .con h1
+  {
+  	margin-left: 7vw;
+  	font-size: 6vw;
+  }
+  .con p
+  {
+  	margin-left: 2vw;
+  	font-size: 2.5vw;
+  	margin-top: 13vw;
+  }
+  .con a
+  {
+  	font-size: 5vw;
+  	margin-left: -12vw;
+  	margin-top: 29vw;
+  }
+  .foo .f1
+  {
+  	display: block;
+  	text-align: center;
+  	width: 98%;
+  	height: auto;
+  }
+  .foo .f1 a
+  {
+  	font-size: 2.5vw;
+  }
+  .foo .f1 h2
+  {
+  	font-size: 3.5vw;
+  }
+  .foo .f1 p
+  {
+  	font-size: 2.5vw;
+  }
+}
